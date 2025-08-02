@@ -1,0 +1,97 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: top 2rem;
+    padding: 20px;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #ba6509;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #222;
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 5px;
+}
+
+.cv-button {
+    display: inline-block;
+    background-color:rgb(198, 148, 54);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.cv-button:hover {
+    background-color: #e88e00;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #ff9900;
+}
+ .floating-pic{
+    width: 150px;
+    height: 150;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: #ff9900;
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+    box-shadow: #74f226;
+    z-index: 1000;
+ }
+ contact{
+    list-style: georgian;
+ }
+ .btn-social{
+    background-color: #e88e00;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    text-decoration: double;
+ }
+ 
